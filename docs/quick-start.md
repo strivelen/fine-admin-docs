@@ -32,7 +32,7 @@ pnpm run dev
 ## 项目结构
 
 ```bash
-my-admin
+fine-admin
 ├── .vscode
 │   └── settings.json
 ├── public

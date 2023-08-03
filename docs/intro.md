@@ -15,8 +15,9 @@ sidebar_position: 1
 * 🛡 使用 **TypeScript** 开发，提供完整的类型定义。
 * 👍 强大的 [redux-toolkit](https://redux-toolkit.js.org/) 让您可以专注于应用所需的核心逻辑。
 * 🌏 使用 [axios](https://www.axios-http.cn/) 搭配 [ahooks](https://ahooks.js.org/zh-CN/) 中的 `useRequest` 进行网络请求。
-* 🖥 支持同时使用多个 `Layout` 布局，且任意扩展默认 `Layout`。
 * 🔌 同时支持 **约定式路由** 和 **配置化路由**。
+* 🖥 支持同时使用多个 `Layout` 布局，且默认 `Layout` 属于本地模块，可自由扩展。
+* ☀ 支持 *亮/暗* 主题，且多个 `Primary` 色调可选。
 
 
 ## ❓ 我有疑问
