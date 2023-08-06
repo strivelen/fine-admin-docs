@@ -30,10 +30,10 @@ pages
 
 ```javascript
 [
-  { path: '/', element: '@/pages/index' },
-  { path: '/users', element: '@/pages/users' },
-  { path: '/customer/:customerId', element: '@/pages/customer' },
-  { path: '/detail/:id?', element: '@/pages/detail' }
+  { path: '/', element: lazy(() => import('@/pages/index.tsx')) },
+  { path: '/users', element: lazy(() => import('@/pages/users.tsx')) },
+  { path: '/customer/:customerId', element: lazy(() => import('@/pages/customer/[customerId].tsx')) },
+  { path: '/detail/:id?', element: lazy(() => import('@/pages/detail/[[id]].tsx')) }
 ]
 ```
 ## 路由配置项
