@@ -50,7 +50,7 @@ pages
 
 `type: 'default' | false;`
 
-页面布局，默认使用 `default`，`false` 为不使用布局组件（将只显示页面内容）。可参考 [布局](http://www.baidu.com)。
+页面布局，默认使用 `default`，`false` 为不使用布局组件（将只显示页面内容）。可参考 [布局](/docs/guide/layout)。
 
 ### auth
 

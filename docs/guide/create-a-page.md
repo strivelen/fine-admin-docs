@@ -19,7 +19,7 @@ sidebar_position: 1
 
 :::
 
-## 例子：创建一个页面
+## 示例：创建一个页面
 
 在 `src/pages` 目录下创建一个文件： `src/pages/my-test-page.tsx`
 
