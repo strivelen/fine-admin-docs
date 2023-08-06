@@ -4,17 +4,19 @@ sidebar_position: 5
 
 # 布局
 
-布局使用 [`Layout`](https://ant.design/components/layout-cn) 搭建。无需任何配置即可直接使用。
+布局使用 [`Layout`](https://ant.design/components/layout-cn) 搭建。如果对此组件不满意，可自行调整此组件；或使用 [pro-layout](https://www.npmjs.com/package/@ant-design/pro-layout) (此模板已内置此组件，无需安装可直接使用)。
 
 ## 调整默认布局组件
 
 如需对布局进行调整，请打开 `src/layouts/default/index.tsx` 文件自行分析调整。
 
-## 同时使用多种布局方案
+## 使用自定义布局
 
-### 示例：
+此模板支持同时使用多种布局方案。
 
-1. 进入 `src/layouts` 文件夹下并创建你的布局组件文件（`customLayout.tsx` 或 `customLayout/index.tsx`）。
+### 示例
+
+1. 进入 `src/layouts` 文件夹下并创建你的布局组件文件（如：`customLayout.tsx` 或 `customLayout/index.tsx`）。
 
 2. 编写自定义布局组件内容：
 
