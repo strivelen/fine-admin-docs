@@ -19,7 +19,9 @@ sidebar_position: 1
 * 🖥 支持同时使用多个 `Layout` 布局，且默认 `Layout` 属于本地模块，可自由扩展。
 * ☀ 支持 *亮/暗* 主题，且多个 `Primary` 色调可选。
 
+## 😀 适用范围
 
+主要针对中小型规模的项目使用，可用于公司（或个人）内部或外部系统使用。
 ## ❓ 我有疑问
 
 如果您在使用过程中出现问题，或者对此模板有比较好的改进方案，欢迎提 [issues](https://github.com/strivelen/fine-admin/issues) 。

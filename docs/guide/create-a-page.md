@@ -31,4 +31,8 @@ export default function MyTestPage() {
 
 现在可以访问新页面： [http://localhost:3000/my-test-page](http://localhost:3000/my-test-page).
 
+## 页面元数据配置
 
+进入 `src/config/pageConfig.ts` 文件配置页面所需元数据。当页面不做元数据配置时默认使用 `defaultPageConfig` 配置。
+
+> 常见的配置化路由页面元数据配置方式通常都是与路由绑定在一起的，或者约定式路由中常见的元数据配置方式是跟随页面文件指定一个单独的配置文件（如小程序的page.json），之所以在一个文件中集中式配置路由的元数据是为了使元数据更加直观和后期维护更便捷。
